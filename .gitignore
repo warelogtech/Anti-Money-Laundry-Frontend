@@ -1,0 +1,36 @@
+﻿# ── Dependencies ─────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build output ─────────────────────────────────
+dist/
+build/
+*.local
+
+# ── Environment (secrets) ────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Logs ─────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Editor / OS ──────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Vite cache ───────────────────────────────────
+.vite/
+node_modules/.vite/
+
+# ── Test coverage ────────────────────────────────
+coverage/
